@@ -82,7 +82,7 @@
             <div class="content">
                 <div class="title m-b-md">
                     Laundry
-                    APAAN SEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEH
+                    APAAN SEEH
                 </div>
 
                 <div class="links">
