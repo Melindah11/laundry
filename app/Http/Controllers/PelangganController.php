@@ -6,12 +6,15 @@ use Illuminate\Http\Request;
 
 class PelangganController extends Controller
 {
-    // mengambil data dari table pelanggan
-    	$pelanggan = DB::table('pelanggan')->get();
- 
-    	// mengirim data pelanggan ke view pelanggan
-        return view('pelanggan',['pelanggan' => $pelanggan]);
-        
-        
- 
 }
+public function store(Request $request) 
+{
+DB::table('pelanggan')->insert([
+    'pelanggan_id' => $request->id,
+    'pelanggan_nama' => $request->nama,
+    'pelanggan_alamat' => $request->alamat,
+    'pelanggan_no_telepon' => $request->no_telepon,
+]);
+// alihkan halaman ke halaman pegawai
+return redirect('/pelanggan');
+

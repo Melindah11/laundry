@@ -69,22 +69,23 @@
             <hr>
             <form action="{{ route('kontak.store') }}" method="post">
              
+            <div class="form-group">
+                    <label for="id">id:</label>
+                    <input type="int" class="form-control" id="id" name="id">
+                </div>
                 <div class="form-group">
                     <label for="nama">Nama:</label>
-                    <input type="text" class="form-control" id="usr" name="nama">
-                </div>
-                <div class="form-group">
-                    <label for="email">Email:</label>
-                    <input type="email" class="form-control" id="email" name="email">
-                </div>
-                <div class="form-group">
-                    <label for="nohp">No Hp:</label>
-                    <input type="text" class="form-control" id="nohp" name="nohp">
+                    <input type="text" class="form-control" id="nama" name="nama">
                 </div>
                 <div class="form-group">
                     <label for="alamat">Alamat:</label>
                     <textarea class="form-control" id="alamat" name="alamat"></textarea>
                 </div>
+                <div class="form-group">
+                    <label for="no_telepon">No Hp:</label>
+                    <input type="int" class="form-control" id="no_telepon" name="no_telepon">
+                </div>
+                
                 <div class="form-group">
                     <button type="submit" class="btn btn-md btn-primary">Submit</button>
                     <button type="reset" class="btn btn-md btn-danger">Cancel</button>
