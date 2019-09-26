@@ -83,7 +83,6 @@
                 <div class="title m-b-md">
 
                     Laundry
-                    APAAN SEEH
 
                 </div>
 
