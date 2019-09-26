@@ -12,7 +12,7 @@
         <!-- Styles -->
         <style>
             html, body {
-                background-color: #fff;
+                background-color: #D8BFD8;
                 color: #636b6f;
                 font-family: 'Nunito', sans-serif;
                 font-weight: 200;
@@ -81,12 +81,17 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                Laundryku
+
+                    Laundry
+                    APAAN SEEH
+
                 </div>
 
                 <div class="links">
                     <a href="https://laravel.com/docs">Document</a>
-                    <a href="https://laracasts.com">laracasts</a>
+
+                    <a href="https://laracasts.com">Laracasts</a>
+
                     <a href="https://laravel-news.com">News</a>
                     <a href="https://blog.laravel.com">Blog</a>
                     <a href="https://nova.laravel.com"></a>
